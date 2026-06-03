@@ -25,7 +25,7 @@
                             class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                             style="text-decoration: none">Pusat Akun</a>
                     @endif
-                    <a href="#" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
+                    <a href="{{ route('arsip.index', 'Teknologi') }}" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Arsip</a>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <a href="{{ route('PSDA.baru') }}"
                         class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Pendaftaran</a>
-                    <a href="#" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
+                    <a href="{{ route('arsip.index', 'PSDA') }}" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Arsip</a>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                     <a href="{{ route('PSDA.poin') }}"
                         class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Point Keaktifan</a>
-                    <a href="#" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
+                    <a href="{{ route('arsip.index', 'Keuangan') }}" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Arsip</a>
                 </div>
             </div>
@@ -93,7 +93,7 @@
 
                 <div
                     class="submenu max-h-0 overflow-hidden -mx-2 px-2 bg-[#FFFFFF0D] transition-all duration-300 text-base">
-                    <a href="#" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
+                    <a href="{{ route('arsip.index', 'Usaha') }}" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Arsip</a>
                 </div>
             </div>
@@ -110,7 +110,7 @@
 
                 <div
                     class="submenu max-h-0 overflow-hidden -mx-2 px-2 bg-[#FFFFFF0D] transition-all duration-300 text-base">
-                    <a href="#" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
+                    <a href="{{ route('arsip.index', 'Adminhum') }}" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Arsip</a>
                 </div>
             </div>
@@ -127,7 +127,7 @@
 
                 <div
                     class="submenu max-h-0 overflow-hidden -mx-2 px-2 bg-[#FFFFFF0D] transition-all duration-300 text-base">
-                    <a href="#" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
+                    <a href="{{ route('arsip.index', 'Pengawas') }}" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Arsip</a>
                 </div>
             </div>
@@ -144,7 +144,7 @@
 
                 <div
                     class="submenu max-h-0 overflow-hidden -mx-2 px-2 bg-[#FFFFFF0D] transition-all duration-300 text-base">
-                    <a href="#" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
+                    <a href="{{ route('arsip.index', 'Personalia') }}" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Arsip</a>
                 </div>
             </div>
@@ -161,7 +161,7 @@
 
                 <div
                     class="submenu max-h-0 overflow-hidden -mx-2 px-2 bg-[#FFFFFF0D] transition-all duration-300 text-base">
-                    <a href="#" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
+                    <a href="{{ route('arsip.index', 'Medkraf') }}" class="block pl-12 text-base py-3 text-white hover:bg-[#198750] transition-all"
                         style="text-decoration: none">Arsip</a>
                 </div>
             </div>

@@ -9,6 +9,7 @@ use App\Http\Controllers\DiklatController;
 use App\Http\Controllers\PTController;
 use App\Http\Controllers\user\MainController as UserMainController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ArsipController;
 
 
 Route::get('/1', function () {
@@ -107,3 +108,18 @@ Route::middleware(['auth', 'admin'])->group(function () {
 Route::middleware(['auth', 'user'])->prefix('user')->name('user.')->group(function () {
     Route::resource('/dashboard', UserMainController::class);
 });
+
+Route::middleware(['auth'])->group(function () {
+
+    Route::get('/arsip/{bidang}', [ArsipController::class, 'index'])
+        ->name('arsip.index');
+
+    Route::post('/arsip/{bidang}', [ArsipController::class, 'store'])
+        ->name('arsip.store');
+
+});
+Route::put('/arsip/{id}', [ArsipController::class, 'update'])
+    ->name('arsip.update');
+
+Route::delete('/arsip/{id}', [ArsipController::class, 'destroy'])
+    ->name('arsip.destroy');
